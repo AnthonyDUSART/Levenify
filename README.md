@@ -28,7 +28,7 @@ doctrine:
 * With Query Builder
 ``` php
 <?php
-    public function getProductByName($tolerance = 3) {
+    public function getProductByName($searchString, $tolerance = 3) {
         $queryBuilder = $this->_em->createQueryBuilder()
            ->select('p')
            ->from('Product::class', 'p')
@@ -44,7 +44,7 @@ doctrine:
 * With DQL
 ``` php
 <?php
-    public function getUserByFirstname($tolerance = 3) {
+    public function getProductByName($searchString, $tolerance = 3) {
 
         $dqlString = '
             SELECT product
