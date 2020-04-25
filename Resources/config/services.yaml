@@ -1,0 +1,6 @@
+services:
+
+    Levenify\LevenifyBundle\Command\InstallLevenifyCommand:
+        tags:
+            - { name: 'console.command', command: 'levenify:install' }
+        arguments: ["@doctrine.orm.entity_manager"]

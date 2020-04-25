@@ -1,0 +1,32 @@
+
+{
+    "authors": [
+        {
+            "name": "JRK",
+            "homepage": "https://github.com/jr-k"
+        },
+        {
+            "name": "AnthonyDUSART",
+            "homepage": "https://github.com/AnthonyDUSART"
+        }
+    ],
+    "name": "levenify/levenify-bundle",
+    "description": "A better Levenshtein function in your Symfony project",
+    "type": "symfony-bundle",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "http://github.com/jr-k/JrkLevenshteinBundle",
+    "keywords": ["anthonydusart","levenify","levenshtein","doctrine","search","soundex","symfony","phonetic","algorithm","indexing","doctrine","sql","orm"],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/framework-bundle": "*",
+        "doctrine/orm": "*",
+        "doctrine/dbal": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Levenify\\LevenifyBundle\\": ""
+        }
+    }
+}
